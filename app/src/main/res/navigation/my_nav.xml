@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.st10449069.empoweringthenation.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.st10449069.empoweringthenation.about"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/enquiry"
+        android:name="com.st10449069.empoweringthenation.enquiry"
+        android:label="fragment_enquiry"
+        tools:layout="@layout/fragment_enquiry" />
+    <fragment
+        android:id="@+id/courseSummary"
+        android:name="com.st10449069.empoweringthenation.courseSummary"
+        android:label="fragment_course_summary"
+        tools:layout="@layout/fragment_course_summary" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.st10449069.empoweringthenation.contact"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

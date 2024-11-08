@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/baseline_home"/>
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="About"
+        android:icon="@drawable/baseline_about"/>
+    <item
+        android:id="@+id/courseSummaryFragment"
+        android:title="CourseSummary"
+        android:icon="@drawable/baseline_course_summary"/>
+    <item
+        android:id="@+id/enquiryFragment"
+        android:title="Enquiry"
+        android:icon="@drawable/baseline_enquiry"/>
+    <item
+        android:id="@+id/contactFragment"
+        android:title="Phone"
+        android:icon="@drawable/baseline_phone"/>
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/homeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="97dp"
+                android:layout_height="54dp"
+                android:src="@drawable/emp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:text="Home"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:text="Welcome to Empowering The Nation"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="We at Empowering the Nation
+think that everyone can have a
+better future through working
+together. Our goal is to
+encourage,Â Â communities
+around the nation
+in order to promote constructive
+change.
+
+Our goals are to support
+sustainable development,
+inspire innovation, and uplift the
+underprivileged. We hope to
+build a more robust and inclusive
+society where all
+voices are heard and dreams can
+come true by bringing together
+people, groups,
+and leaders from all backgrounds."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="One of the six month courses at Empowering the Nation is First Aid."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/aid"
+            android:layout_width="183dp"
+            android:layout_height="150dp"
+            android:src="@drawable/first_aid" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Purpose: To provide first aid awareness and basic life support\n\nThe course will cover how to:\n\u2022 Wounds and bleeding\n\u2022 Burns and fractures\n\u2022 Emergency scene management\n\u2022 Cardio-Pulmonary Resuscitation (CPR)\n\u2022 Respiratory distress e.g., Choking, blocked airway"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>
